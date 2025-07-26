@@ -1,10 +1,26 @@
+## 📦 Tech Stack
+
+Automated end-to-end testing project using **Cypress** with **Cucumber (Gherkin)** syntax.
+- [Cypress](https://docs.cypress.io/)
+- [Cucumber Preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)
+- [Browserify Preprocessor](https://github.com/cypress-io/browserify-preprocessor)
+- [Mochawesome Reporter](https://github.com/adamgruber/mochawesome)
+
+
 **Pre-requisites:**
 
-Before getting started, you'll need to ensure you have the following:
+### 1. Clone the Repository
 
-- Node >=10.9 (is confirmed to working version)
-- run npm install
 
+git clone https://github.com/fatmaAbdo/work-motion-platform-qa.git
+cd work-motion-platform-qa
+
+### 2.
+npm install
+
+### 3.
+
+npx cypress open
 
 **Notes:**
 
