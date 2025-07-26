@@ -1,0 +1,24 @@
+{
+  "name": "work-motion-platform-qa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.5.2",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress-iframe": "1.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "/Users/fatamaalzahraa.abdo/work-motion-platform-qa/cypress/e2e/step_definitions/*.js"
+  }
+}
