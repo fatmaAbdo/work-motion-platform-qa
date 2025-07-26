@@ -19,6 +19,6 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
-    "stepDefinitions": "/Users/fatamaalzahraa.abdo/work-motion-platform-qa/cypress/e2e/step_definitions/*.js"
+    "stepDefinitions": "cypress/e2e/step_definitions/*.js"
   }
 }
